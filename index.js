@@ -30,6 +30,10 @@ app.use(
   })
 );
 
+app.get("/", (req, res) => {
+  res.send("API is running...");
+});
+
 mongoose
   .connect(process.env.MONGO_URL, {
     useNewUrlParser: true,
