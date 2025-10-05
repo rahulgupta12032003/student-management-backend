@@ -13,7 +13,7 @@ app.use(express.json({ limit: "10mb" }));
 
 const allowedOrigins = [
   "http://localhost:3000",
-  "https://student-management-frontend-eight.vercel.app",
+  "https://student-management-frontend-eight.vercel.app/",
 ];
 
 app.use(
